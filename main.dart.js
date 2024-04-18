@@ -89529,10 +89529,10 @@ this.oM()},
 oM(){var s=0,r=A.P(t.H),q=this,p,o
 var $async$oM=A.Q(function(a,b){if(a===1)return A.M(b,r)
 while(true)switch(s){case 0:s=2
-return A.V(new A.agd("http://192.168.1.19:7000/api/users").wR(u.M),$async$oM)
+return A.V(new A.agd("http://127.0.0.1:8000/api/users").wR(u.M),$async$oM)
 case 2:p=b
 s=3
-return A.V(new A.q0("http://192.168.1.19:7000/api/roles").rI(u.M),$async$oM)
+return A.V(new A.q0("http://127.0.0.1:8000/api/roles").rI(u.M),$async$oM)
 case 3:o=b
 A.dy("D\u1eef li\u1ec7u m\u1edbi t\u1eeb server: "+J.bI(p))
 B.b.O(q.f)
@@ -89630,7 +89630,7 @@ this.w0()},
 w0(){var s=0,r=A.P(t.H),q=this,p
 var $async$w0=A.Q(function(a,b){if(a===1)return A.M(b,r)
 while(true)switch(s){case 0:s=2
-return A.V(new A.a31("http://192.168.1.19:7000/api/employees").wN(u.M),$async$w0)
+return A.V(new A.a31("http://127.0.0.1:8000/api/employees").wN(u.M),$async$w0)
 case 2:p=b
 A.dy("D\u1eef li\u1ec7u m\u1edbi t\u1eeb server: "+J.bI(p))
 B.b.O(q.f)
@@ -89665,7 +89665,7 @@ this.w1()},
 w1(){var s=0,r=A.P(t.H),q=this,p
 var $async$w1=A.Q(function(a,b){if(a===1)return A.M(b,r)
 while(true)switch(s){case 0:s=2
-return A.V(new A.a38("http://192.168.1.19:7000/api/employers").wO(u.M),$async$w1)
+return A.V(new A.a38("http://127.0.0.1:8000/api/employers").wO(u.M),$async$w1)
 case 2:p=b
 A.dy("D\u1eef li\u1ec7u m\u1edbi t\u1eeb server: "+J.bI(p))
 B.b.O(q.f)
@@ -89700,7 +89700,7 @@ this.n4()},
 n4(){var s=0,r=A.P(t.H),q=this,p
 var $async$n4=A.Q(function(a,b){if(a===1)return A.M(b,r)
 while(true)switch(s){case 0:s=2
-return A.V(new A.t0("http://192.168.1.19:7000/api/fields").wP(u.M),$async$n4)
+return A.V(new A.t0("http://127.0.0.1:8000/api/fields").wP(u.M),$async$n4)
 case 2:p=b
 A.dy("D\u1eef li\u1ec7u m\u1edbi t\u1eeb server: "+J.bI(p))
 B.b.O(q.f)
@@ -89754,9 +89754,9 @@ var $async$$0=A.Q(function(a,b){if(a===1)return A.M(b,r)
 while(true)switch(s){case 0:p=q.b
 o=q.a
 n=q.c.a
-if(p==null){new A.t0("http://192.168.1.19:7000/api/fields").wJ(new A.h2("",n.a))
+if(p==null){new A.t0("http://127.0.0.1:8000/api/fields").wJ(new A.h2("",n.a))
 o.n4()}else{p.b=n.a
-new A.t0("http://192.168.1.19:7000/api/fields").wS(p)
+new A.t0("http://127.0.0.1:8000/api/fields").wS(p)
 A.dZ(q.d,!1).h7(null)
 o.n4()}return A.N(null,r)}})
 return A.O($async$$0,r)},
@@ -89774,7 +89774,7 @@ var $async$$0=A.Q(function(a,b){if(a===1)return A.M(b,r)
 while(true)switch(s){case 0:p=q.a
 o=B.b.mG(p.d,new A.a3W(q.b))
 A.dy("object")
-new A.t0("http://192.168.1.19:7000/api/fields").wL(o)
+new A.t0("http://127.0.0.1:8000/api/fields").wL(o)
 A.dZ(q.c,!1).h7(null)
 p.n4()
 return A.N(null,r)}})
@@ -89791,7 +89791,7 @@ this.w4()},
 w4(){var s=0,r=A.P(t.H),q=this,p
 var $async$w4=A.Q(function(a,b){if(a===1)return A.M(b,r)
 while(true)switch(s){case 0:s=2
-return A.V(new A.a9Z("http://192.168.1.19:7000/api/ra").wQ(u.M),$async$w4)
+return A.V(new A.a9Z("http://127.0.0.1:8000/api/ra").wQ(u.M),$async$w4)
 case 2:p=b
 A.dy("D\u1eef li\u1ec7u m\u1edbi t\u1eeb server: "+J.bI(p))
 B.b.O(q.f)
@@ -89862,7 +89862,7 @@ this.n6()},
 n6(){var s=0,r=A.P(t.H),q=this,p
 var $async$n6=A.Q(function(a,b){if(a===1)return A.M(b,r)
 while(true)switch(s){case 0:s=2
-return A.V(new A.q0("http://192.168.1.19:7000/api/roles").rI(u.M),$async$n6)
+return A.V(new A.q0("http://127.0.0.1:8000/api/roles").rI(u.M),$async$n6)
 case 2:p=b
 A.dy("D\u1eef li\u1ec7u m\u1edbi t\u1eeb server: "+J.bI(p))
 B.b.O(q.f)
@@ -89880,7 +89880,7 @@ return A.wx(A.a([A.i_(A.bp("H\u1ee7y",s,s,s,A.bh(s,s,B.i,s,s,s,s,s,s,s,s,s,s,s,s
 vr(a){var s=this.c
 s.toString
 A.r4(new A.abS(this,a),s,t.z)},
-ajR(a){var s=new A.q0("http://192.168.1.19:7000/api/roles").wM(a),r=this.c
+ajR(a){var s=new A.q0("http://127.0.0.1:8000/api/roles").wM(a),r=this.c
 r.toString
 A.r4(new A.abM(s),r,t.z)}}
 A.abO.prototype={
@@ -89921,9 +89921,9 @@ var $async$$0=A.Q(function(a,b){if(a===1)return A.M(b,r)
 while(true)switch(s){case 0:p=q.b
 o=q.a
 n=q.c.a
-if(p==null){new A.q0("http://192.168.1.19:7000/api/roles").wK(new A.hT(null,n.a,""))
+if(p==null){new A.q0("http://127.0.0.1:8000/api/roles").wK(new A.hT(null,n.a,""))
 o.n6()}else{p.b=n.a
-new A.q0("http://192.168.1.19:7000/api/roles").wT(p)
+new A.q0("http://127.0.0.1:8000/api/roles").wT(p)
 A.dZ(q.d,!1).h7(null)
 o.n6()}return A.N(null,r)}})
 return A.O($async$$0,r)},
